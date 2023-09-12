@@ -1,0 +1,74 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    color: rgb(227, 207, 26);
+    background-color: rgb(4, 4, 4);
+    
+}
+
+button1{
+        position: relative; left: 10px;
+        color: rgb(0, 0, 0); 
+        font-size: 22px; 
+        line-height: 22px; 
+        padding: 9px; 
+        border-radius: 5px; 
+        font-family: "Trebuchet MS", Helvetica, sans-serif; 
+        font-weight: normal; 
+        text-decoration: none; 
+        font-style: normal; 
+        font-variant: normal; 
+        text-transform: none; 
+        background-image: radial-gradient(at center center, rgb(243, 236, 241) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
+        box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
+        display: inline-block;}
+        button1:hover {
+        background: #a812de; }
+        button1:active {
+        background: #ac17bc; }
+
+button2{
+        position: relative; left: 50px;
+        z-index: 2;
+        color: rgb(0, 0, 0); 
+        font-size: 22px; 
+        line-height: 22px; 
+        padding: 9px; 
+        border-radius: 5px; 
+        font-family: "Trebuchet MS", Helvetica, sans-serif; 
+        font-weight: normal; 
+        text-decoration: none; 
+        font-style: normal; 
+        font-variant: normal; 
+        text-transform: none; 
+        background-image: radial-gradient(at center center, rgb(255, 255, 255) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
+        box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
+        display: inline-block;}
+        button2:hover {
+        background: #a812de; }
+        button2:active {
+        background: #ac17bc; }
+
+button3{
+    position: relative; left: 90px;
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+    font-size: 22px; 
+    line-height: 22px; 
+    padding: 9px; 
+    border-radius: 5px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: radial-gradient(at center center, rgb(255, 255, 255) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
+    box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
+    display: inline-block;}
+    button3:hover {
+    background: #a812de; }
+    button3:active {
+    background: #ac17bc; }
