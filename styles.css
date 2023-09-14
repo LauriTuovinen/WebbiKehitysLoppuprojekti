@@ -5,11 +5,29 @@ body{
 h1{
     color: rgb(227, 207, 26);
     background-color: rgb(4, 4, 4);
+    text-align: center;
     
 }
 
-button1{
-        position: relative; left: 10px;
+header {
+    background-color: #66666694;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(227, 207, 26);
+  }
+
+  article {
+    float: right;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+  }
+
+button1 {
+    margin: auto;
+    width: 100px;
         color: rgb(0, 0, 0); 
         font-size: 22px; 
         line-height: 22px; 
@@ -21,6 +39,7 @@ button1{
         font-style: normal; 
         font-variant: normal; 
         text-transform: none; 
+        text-align: center;
         background-image: radial-gradient(at center center, rgb(243, 236, 241) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
         box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
         display: inline-block;}
@@ -29,7 +48,9 @@ button1{
         button1:active {
         background: #ac17bc; }
 
-button2{
+button2 {
+    margin: auto;
+    width: 100px;
         position: relative; left: 50px;
         z-index: 2;
         color: rgb(0, 0, 0); 
@@ -42,6 +63,7 @@ button2{
         text-decoration: none; 
         font-style: normal; 
         font-variant: normal; 
+        text-align: center;
         text-transform: none; 
         background-image: radial-gradient(at center center, rgb(255, 255, 255) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
         box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
@@ -51,7 +73,9 @@ button2{
         button2:active {
         background: #ac17bc; }
 
-button3{
+button3 {
+    margin: auto;
+    width: 100px;
     position: relative; left: 90px;
     z-index: 2;
     color: rgb(0, 0, 0); 
@@ -64,6 +88,7 @@ button3{
     text-decoration: none; 
     font-style: normal; 
     font-variant: normal; 
+    text-align: center;
     text-transform: none; 
     background-image: radial-gradient(at center center, rgb(255, 255, 255) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
     box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
