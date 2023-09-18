@@ -26,10 +26,11 @@ header {
     width: 70%;
     background-color: #666666d8;
     height: 300px;
-  }
+    color: rgb(255, 255, 0);
+    }
 
 .containerUp {  
-    width: auto ;  
+    width: auto;  
     height: 100px;  
     background-color: #66666694;
     display: flex;  
@@ -39,8 +40,8 @@ header {
 
 .containerLeft {  
     float: left;
-    width: 90px;
-    height: 1400px;  
+    width: 150px;
+    height: 2000px;  
     background-color: #66666694;
     display: flex;  
     justify-content: center;  
@@ -49,8 +50,8 @@ header {
 
 .containerRight {  
     float: right;
-    width: 100px ;  
-    height: 1400px;  
+    width: 150px;
+    height: 2000px;  
     background-color: #66666694;
     display: flex;  
     justify-content: center;  
