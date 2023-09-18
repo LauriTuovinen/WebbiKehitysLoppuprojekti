@@ -1,5 +1,8 @@
 body{
-    background-color: burlywood;
+    background-image: url('assets/space.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
 
 h1{
@@ -18,16 +21,45 @@ header {
   }
 
   article {
-    float: right;
+    margin: auto;
     padding: 20px;
     width: 70%;
-    background-color: #f1f1f1;
+    background-color: #666666d8;
     height: 300px;
   }
 
+.containerUp {  
+    width: auto ;  
+    height: 100px;  
+    background-color: #66666694;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    }  
+
+.containerLeft {  
+    float: left;
+    width: 90px;
+    height: 1400px;  
+    background-color: #66666694;
+    display: flex;  
+    justify-content: center;  
+    align-items: left;  
+    }
+
+.containerRight {  
+    float: right;
+    width: 100px ;  
+    height: 1400px;  
+    background-color: #66666694;
+    display: flex;  
+    justify-content: center;  
+    align-items: left;  
+    }
+
 button1 {
     margin: auto;
-    width: 100px;
+    width: 150px;
         color: rgb(0, 0, 0); 
         font-size: 22px; 
         line-height: 22px; 
@@ -50,8 +82,7 @@ button1 {
 
 button2 {
     margin: auto;
-    width: 100px;
-        position: relative; left: 50px;
+    width: 150px;
         z-index: 2;
         color: rgb(0, 0, 0); 
         font-size: 22px; 
@@ -75,8 +106,7 @@ button2 {
 
 button3 {
     margin: auto;
-    width: 100px;
-    position: relative; left: 90px;
+    width: 150px;
     z-index: 2;
     color: rgb(0, 0, 0); 
     font-size: 22px; 
