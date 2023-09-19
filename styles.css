@@ -27,6 +27,7 @@ header {
     background-color: #666666e7;
     height: 300px;
     color: rgb(255, 255, 0);
+    font-size: 22px;
     }
 
 .containerUp {  
@@ -127,4 +128,28 @@ button3 {
     button3:hover {
     background: #a812de; }
     button3:active {
+    background: #ac17bc; }
+
+frontpageButton {
+    margin: auto;
+    width: 150px;
+    z-index: 2;
+    color: rgb(0, 0, 0); 
+    font-size: 22px; 
+    line-height: 22px; 
+    padding: 9px; 
+    border-radius: 5px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-align: center;
+    text-transform: none; 
+    background-image: radial-gradient(at center center, rgb(255, 255, 255) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
+    box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
+    display: inline-block;}
+    frontpageButton:hover {
+    background: #a812de; }
+    frontpageButton:active {
     background: #ac17bc; }
