@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-    color: rgb(227, 207, 26);
+    color: rgb(0, 157, 255);
     background-color: rgb(4, 4, 4);
     text-align: center;
     
@@ -17,7 +17,7 @@ header {
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: rgb(227, 207, 26);
+    color: rgb(0, 157, 255);
   }
 
   article {
@@ -26,7 +26,7 @@ header {
     width: 70%;
     background-color: #666666e7;
     height: 300px;
-    color: rgb(255, 255, 0);
+    color: rgb(0, 157, 255);
     font-size: 22px;
     text-align: center;
     }
@@ -86,7 +86,7 @@ button1 {
 button2 {
     margin: auto;
     width: 150px;
-        z-index: 2;
+    z-index: 2;
         color: rgb(0, 0, 0); 
         font-size: 22px; 
         line-height: 22px; 
@@ -154,3 +154,83 @@ frontpageButton {
     background: #a812de; }
     frontpageButton:active {
     background: #ac17bc; }
+
+    lightButton {
+        margin: auto;
+        width: 140px;
+        z-index: 2;
+        color: rgb(0, 0, 0); 
+        font-size: 24px; 
+        line-height: 24px; 
+        padding: 10px; 
+        border-radius: 50px; 
+        font-family: Georgia, serif; 
+        font-weight: normal; 
+        text-decoration: none; 
+        font-style: normal; 
+        font-variant: normal; 
+        text-transform: none; 
+        background-image: radial-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%); 
+        box-shadow: rgba(0, 0, 0, 0) 20px -15px 15px 5px; 
+        border: 2px solid rgb(0, 0, 0); 
+        display: inline-block;}
+        lightButton:hover {
+        background: #ffffff38; }
+        lightButton:active {
+        background: #FFFFFF; }
+
+    DarkButton {
+        margin: auto;
+        width: 140px;
+        z-index: 2;
+        color: rgb(255, 255, 255); 
+        font-size: 24px; 
+        line-height: 24px; 
+        padding: 10px; 
+        border-radius: 50px; 
+        font-family: Georgia, serif; 
+        font-weight: normal; 
+        text-decoration: none; 
+        font-style: normal; 
+        font-variant: normal; 
+        text-transform: none; 
+        background-image: radial-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 100%); 
+        box-shadow: rgba(255, 255, 255, 0) 20px -15px 15px 5px; 
+        border: 2px solid rgb(255, 255, 255); 
+        display: inline-block;}
+        darkButton:hover {
+        background: #00000036; }
+        darkButton:active {
+        background: #000000; }
+
+    .likeBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .likeBtn:active{
+        transform: scale(0.9, 0.9);
+    }
+    .likeBtn:active{
+        animation: pop 0.6s 1;
+    }
+    .likeBtn path {
+        fill: #767676;
+    }
+    .likeBtn:active path{
+        fill: #ec3e3e;
+    }
+
+    .clone{
+        position: absolute;
+        animation: moveOutwards 0.9s 1;
+        opacity: 0;
+    }
+
+    @keyframes moveOutwards{
+        from {
+            opacity: 1;
+            transform: translate(0, 0)
+        }
+    }
