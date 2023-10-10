@@ -1,18 +1,25 @@
-body{
+.bodyDark{
     background-image: url('assets/space.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
 }
 
-h1{
+.bodyLight{
+    background-image: url('assets/sky.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.h1{
     color: rgb(0, 157, 255);
     background-color: rgb(4, 4, 4);
     text-align: center;
     
 }
 
-header {
+.headerDark {
     background-color: #3d3d3dd6;
     padding: 30px;
     text-align: center;
@@ -20,7 +27,7 @@ header {
     color: rgb(0, 157, 255);
   }
 
-  article {
+  .article {
     margin: auto;
     padding: 20px;
     width: 70%;
@@ -43,7 +50,7 @@ header {
 .containerLeft {  
     float: left;
     width: 150px;
-    height: 2000px;  
+    height: 1000px;;  
     background-color: #66666694;
     display: flex;  
     justify-content: center;  
@@ -53,18 +60,18 @@ header {
 .containerRight {  
     float: right;
     width: 150px;
-    height: 2000px;  
+    height: 1000px;  
     background-color: #66666694;
     display: flex;  
     justify-content: center;  
     align-items: left;  
     }
 
-button1 {
-    margin: auto;
-    width: 150px;
-        color: rgb(0, 0, 0); 
-        font-size: 22px; 
+.buttonDark {
+    margin:auto;
+    width: 255px;
+        color: rgb(255, 255, 255);
+        font-size: 30px; 
         line-height: 22px; 
         padding: 9px; 
         border-radius: 5px; 
@@ -75,87 +82,37 @@ button1 {
         font-variant: normal; 
         text-transform: none; 
         text-align: center;
-        background-image: radial-gradient(at center center, rgb(243, 236, 241) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
-        box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
+        background-image: radial-gradient(at center center, rgb(35, 34, 34) 0%, rgb(0, 0, 0) 100%, rgb(255, 255, 255) 100%); 
+        box-shadow: rgb(0, 0, 0) 1px 1px 3px 13px; border: 2px solid rgb(255, 255, 255); 
         display: inline-block;}
-        button1:hover {
-        background: #a812de; }
-        button1:active {
-        background: #ac17bc; }
+        .buttonDark:hover {
+        background: #00000036;
+        box-shadow:  #00000036 1px 1px 3px 13px; border: 2px solid rgb(255, 255, 255); }
+        .buttonDark:active {
+        background: #000000; }
 
-button2 {
-    margin: auto;
-    width: 150px;
-    z-index: 2;
-        color: rgb(0, 0, 0); 
-        font-size: 22px; 
-        line-height: 22px; 
-        padding: 9px; 
-        border-radius: 5px; 
-        font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    .ButtonLight {
+        color: rgb(255, 255, 255); 
+        font-size: 30px; 
+        line-height: 30px; 
+        padding: 13px; 
+        border-radius: 50px; 
+        font-family: Georgia, serif; 
         font-weight: normal; 
         text-decoration: none; 
         font-style: normal; 
         font-variant: normal; 
-        text-align: center;
         text-transform: none; 
-        background-image: radial-gradient(at center center, rgb(255, 255, 255) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
-        box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
+        background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+        box-shadow: rgba(0, 0, 0, 0) -56px -4px 15px 5px; 
+        border: 2px solid rgb(28, 110, 164); 
         display: inline-block;}
-        button2:hover {
-        background: #a812de; }
-        button2:active {
-        background: #ac17bc; }
+        .myButton:hover {
+        background: #1C6EA4; }
+        .myButton:active {
+        background: #144E75; }
 
-button3 {
-    margin: auto;
-    width: 150px;
-    z-index: 2;
-    color: rgb(0, 0, 0); 
-    font-size: 22px; 
-    line-height: 22px; 
-    padding: 9px; 
-    border-radius: 5px; 
-    font-family: "Trebuchet MS", Helvetica, sans-serif; 
-    font-weight: normal; 
-    text-decoration: none; 
-    font-style: normal; 
-    font-variant: normal; 
-    text-align: center;
-    text-transform: none; 
-    background-image: radial-gradient(at center center, rgb(255, 255, 255) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
-    box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
-    display: inline-block;}
-    button3:hover {
-    background: #a812de; }
-    button3:active {
-    background: #ac17bc; }
-
-frontpageButton {
-    margin: auto;
-    width: 150px;
-    z-index: 2;
-    color: rgb(0, 0, 0); 
-    font-size: 22px; 
-    line-height: 22px; 
-    padding: 9px; 
-    border-radius: 5px; 
-    font-family: "Trebuchet MS", Helvetica, sans-serif; 
-    font-weight: normal; 
-    text-decoration: none; 
-    font-style: normal; 
-    font-variant: normal; 
-    text-align: center;
-    text-transform: none; 
-    background-image: radial-gradient(at center center, rgb(255, 255, 255) 0%, rgb(164, 35, 203) 100%, rgb(255, 255, 255) 100%); 
-    box-shadow: rgb(101, 9, 127) 1px 1px 3px 13px; border: 2px solid rgb(152, 21, 192); 
-    display: inline-block;}
-    frontpageButton:hover {
-    background: #a812de; }
-    frontpageButton:active {
-    background: #ac17bc; }
-
-    lightButton {
+    .lightButton {
         margin: auto;
         width: 140px;
         z-index: 2;
@@ -174,12 +131,12 @@ frontpageButton {
         box-shadow: rgba(0, 0, 0, 0) 20px -15px 15px 5px; 
         border: 2px solid rgb(0, 0, 0); 
         display: inline-block;}
-        lightButton:hover {
+        .lightButton:hover {
         background: #ffffff38; }
-        lightButton:active {
+        .lightButton:active {
         background: #FFFFFF; }
 
-    DarkButton {
+    .darkButton {
         margin: auto;
         width: 140px;
         z-index: 2;
@@ -198,10 +155,15 @@ frontpageButton {
         box-shadow: rgba(255, 255, 255, 0) 20px -15px 15px 5px; 
         border: 2px solid rgb(255, 255, 255); 
         display: inline-block;}
-        darkButton:hover {
+        .darkButton:hover {
         background: #00000036; }
-        darkButton:active {
+        .darkButton:active {
         background: #000000; }
+
+    .image {
+        margin-left: auto;
+        background-color: #144E75;
+    }
 
     .likeBtn{
         display: flex;
