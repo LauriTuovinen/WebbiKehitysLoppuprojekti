@@ -16,7 +16,7 @@
     color: rgb(0, 157, 255);
     background-color: rgb(4, 4, 4);
     text-align: center;
-    
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
 }
 
 .headerDark {
@@ -25,6 +25,7 @@
     text-align: center;
     font-size: 35px;
     color: rgb(0, 157, 255);
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
   }
 
   .article {
@@ -36,6 +37,8 @@
     color: rgb(0, 157, 255);
     font-size: 22px;
     text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+
     }
 
 .containerUp {  
@@ -91,13 +94,15 @@
         .buttonDark:active {
         background: #000000; }
 
-    .ButtonLight {
+    .buttonLight {
+        margin:auto;
+        width: 255px;
         color: rgb(255, 255, 255); 
         font-size: 30px; 
         line-height: 30px; 
         padding: 13px; 
         border-radius: 50px; 
-        font-family: Georgia, serif; 
+        font-family: "Trebuchet MS", Helvetica, sans-serif; 
         font-weight: normal; 
         text-decoration: none; 
         font-style: normal; 
@@ -121,7 +126,7 @@
         line-height: 24px; 
         padding: 10px; 
         border-radius: 50px; 
-        font-family: Georgia, serif; 
+        font-family: "Trebuchet MS", Helvetica, sans-serif; 
         font-weight: normal; 
         text-decoration: none; 
         font-style: normal; 
@@ -145,7 +150,7 @@
         line-height: 24px; 
         padding: 10px; 
         border-radius: 50px; 
-        font-family: Georgia, serif; 
+        font-family: "Trebuchet MS", Helvetica, sans-serif; 
         font-weight: normal; 
         text-decoration: none; 
         font-style: normal; 
@@ -161,7 +166,7 @@
         background: #000000; }
 
     .image {
-        margin: auto;
+        margin: center;
     }
 
     .likeBtn{
