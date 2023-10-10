@@ -161,8 +161,7 @@
         background: #000000; }
 
     .image {
-        margin-left: auto;
-        background-color: #144E75;
+        margin: auto;
     }
 
     .likeBtn{
