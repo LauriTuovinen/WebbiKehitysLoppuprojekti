@@ -1,6 +1,7 @@
 .bodyDark{
-    background-image: url('assets/space.jpg');
+    /*background-image: url('assets/space.jpg');*/
     background-repeat: no-repeat;
+    background-color: #040404;
     background-attachment: fixed;  
     background-size: cover;
 }
@@ -13,38 +14,37 @@
 }
 
 .h1{
-    color: rgb(0, 157, 255);
+    color: #610b97;
     background-color: rgb(4, 4, 4);
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
 }
 
 .headerDark {
-    background-color: #3d3d3dd6;
-    padding: 30px;
+    background-color: rgb(28, 9, 37);
+    padding: 30px;    
     text-align: center;
     font-size: 35px;
-    color: rgb(0, 157, 255);
+    color: #610b97;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
   }
 
   .article {
     margin: auto;
     padding: 20px;
-    width: 70%;
-    background-color: #666666e7;
+    width: 60%;
+    background-color: #222222;
     height: auto;
-    color: rgb(0, 157, 255);
+    color: #ffffff;
     font-size: 22px;
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
-
     }
 
 .containerUp {  
     width: auto;  
     height: 100px;  
-    background-color: #66666694;
+    background-color: #222222;
     display: flex;  
     justify-content: center;  
     align-items: center;  
@@ -54,7 +54,7 @@
     float: left;
     width: 150px;
     height: 1000px;  
-    background-color: #66666694;
+    background-color: #222222;
     display: flex;  
     justify-content: center;  
     align-items: left;  
@@ -64,11 +64,31 @@
     float: right;
     width: 150px;
     height: 1000px;  
-    background-color: #66666694;
+    background-color: #222222;
     display: flex;  
     justify-content: center;  
     align-items: left;  
     }
+
+    .containerGalleryL {  
+        float: left;
+        width: 100px;
+        height: 2615px;  
+        background-color: #222222;
+        display: flex;  
+        justify-content: center;  
+        align-items: left;  
+        }
+    
+    .containerGalleryR {  
+        float: right;
+        width: 100px;
+        height: 2615px;  
+        background-color: #222222;
+        display: flex;  
+        justify-content: center;  
+        align-items: left;  
+        }
 
 .buttonDark {
     margin:auto;
@@ -86,11 +106,13 @@
         text-transform: none; 
         text-align: center;
         background-image: radial-gradient(at center center, rgb(35, 34, 34) 0%, rgb(0, 0, 0) 100%, rgb(255, 255, 255) 100%); 
-        box-shadow: rgb(0, 0, 0) 1px 1px 3px 13px; border: 2px solid rgb(255, 255, 255); 
+        box-shadow: rgb(0, 0, 0) 1px 1px 3px 13px; 
+        border: 2px solid #4d2867; 
         display: inline-block;}
         .buttonDark:hover {
         background: #00000036;
-        box-shadow:  #00000036 1px 1px 3px 13px; border: 2px solid rgb(255, 255, 255); }
+        box-shadow:  #00000036 1px 1px 3px 13px; 
+        border: 2px solid #4d2867; }
         .buttonDark:active {
         background: #000000; }
 
@@ -118,12 +140,11 @@
         background: #144E75; }
 
     .lightButton {
-        margin: auto;
-        width: 140px;
-        z-index: 2;
+        width: 130px;
+        height: 25px;
         color: rgb(0, 0, 0); 
         font-size: 24px; 
-        line-height: 24px; 
+        line-height: 25px; 
         padding: 10px; 
         border-radius: 50px; 
         font-family: "Trebuchet MS", Helvetica, sans-serif; 
@@ -141,32 +162,26 @@
         .lightButton:active {
         background: #FFFFFF; }
 
-    .darkButton {
-        margin: auto;
-        width: 140px;
-        z-index: 2;
-        color: rgb(255, 255, 255); 
-        font-size: 24px; 
-        line-height: 24px; 
-        padding: 10px; 
-        border-radius: 50px; 
-        font-family: "Trebuchet MS", Helvetica, sans-serif; 
-        font-weight: normal; 
-        text-decoration: none; 
-        font-style: normal; 
-        font-variant: normal; 
-        text-transform: none; 
-        background-image: radial-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 100%); 
-        box-shadow: rgba(255, 255, 255, 0) 20px -15px 15px 5px; 
-        border: 2px solid rgb(255, 255, 255); 
-        display: inline-block;}
-        .darkButton:hover {
-        background: #00000036; }
-        .darkButton:active {
-        background: #000000; }
+    .imageFrameLeft {
+        margin: 70px;
+        float: left;
+        height: 450px;
+        width: auto;
+        border: 1px rgba(32, 32, 32, 0.937); 
+        size: 50px;
+        box-shadow: #610b97 0px 0px 15px 5px; 
 
-    .image {
-        margin: center;
+    }
+
+    .imageFrameRight {
+        margin: 70px;
+        float: right;
+        height: 450px;
+        width: auto;
+        border: 1px rgba(32, 32, 32, 0.937); 
+        size: 50px;
+        box-shadow: #0b1b97 0px 0px 15px 5px; 
+
     }
 
     .likeBtn{

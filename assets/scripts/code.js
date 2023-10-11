@@ -41,8 +41,3 @@ function toLight() {
     var element = document.body;
     element.classList.toggle("bodyLight");
  }
-
- function toDark() {
-    var element = document.body;
-    element.classList.add("bodyDark",);
- }
