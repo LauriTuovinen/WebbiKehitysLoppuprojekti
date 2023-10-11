@@ -54,41 +54,29 @@
     float: left;
     width: 150px;
     height: 1000px;  
-    background-color: #222222;
-    display: flex;  
-    justify-content: center;  
-    align-items: left;  
+    background-color: #222222; 
     }
 
 .containerRight {  
     float: right;
     width: 150px;
     height: 1000px;  
-    background-color: #222222;
-    display: flex;  
-    justify-content: center;  
-    align-items: left;  
+    background-color: #222222; 
     }
 
-    .containerGalleryL {  
-        float: left;
-        width: 100px;
-        height: 2615px;  
-        background-color: #222222;
-        display: flex;  
-        justify-content: center;  
-        align-items: left;  
-        }
+.containerGalleryL {  
+    float: left;
+    width: 150px;
+    height: 5010px;  
+    background-color: #222222; 
+    }
     
-    .containerGalleryR {  
-        float: right;
-        width: 100px;
-        height: 2615px;  
-        background-color: #222222;
-        display: flex;  
-        justify-content: center;  
-        align-items: left;  
-        }
+.containerGalleryR {  
+    float: right;
+    width: 150px;
+    height: 5010px;  
+    background-color: #222222; 
+    }
 
 .buttonDark {
     margin:auto;
@@ -163,25 +151,39 @@
         background: #FFFFFF; }
 
     .imageFrameLeft {
-        margin: 70px;
-        float: left;
-        height: 450px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 10px; 
+        height: 500px;
         width: auto;
         border: 1px rgba(32, 32, 32, 0.937); 
         size: 50px;
         box-shadow: #610b97 0px 0px 15px 5px; 
-
+    }
+    .imageFrameLeft:hover {
+        border: 13px solid #4d2867;
+        height: 520px;
     }
 
     .imageFrameRight {
-        margin: 70px;
-        float: right;
-        height: 450px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 10px; 
+        height: 500px;
         width: auto;
         border: 1px rgba(32, 32, 32, 0.937); 
         size: 50px;
         box-shadow: #0b1b97 0px 0px 15px 5px; 
-
+    }
+    .imageFrameRight:hover {
+        border: 13px solid #0b1b97;
+        height: 520px;
     }
 
     .likeBtn{
