@@ -26,7 +26,8 @@ function createClones(button){
         clone.setAttribute("width", size);
         clone.setAttribute("height", size);
         clone.classList.add("clone");
-        clone.style.transform = "translate(" + 
+        clone.style.transform = 
+        "translate(" + 
         negativePositive() * randomNum(15, 30) + "px," + 
         negativePositive() * randomNum(15, 30) + "px)";
         
@@ -40,4 +41,17 @@ function createClones(button){
 function toLight() {
     var element = document.body;
     element.classList.toggle("bodyLight");
- }
+}
+
+function redirect() {
+    alert('Redirecting');
+  }
+
+  function loadDoc() {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+    xhttp.open("GET", "assets/walker.jpg");
+    xhttp.send();
+  }
