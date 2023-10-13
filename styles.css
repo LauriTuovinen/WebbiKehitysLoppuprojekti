@@ -1,6 +1,7 @@
 .bodyDark{
     /*background-image: url('assets/space.jpg');*/
     background-color: #040404;
+    color: #ffffff;
 }
 
 .bodyLight{
@@ -209,30 +210,3 @@
             transform: translate(0, 0)
         }
     }
-       
-              
- *{
-    margin: 0;
-    padding: 0;
-}
-
-.btns{
-    position: absolute;
-    top: 216px;
-    left: 328px;
-    display: flex;
-
-}
-
-.btn{
-    background: transparent;
-    border: none;
-    margin: 87px;
-    font-size: 88px;
-    outline: none;
-    color: rgb(255, 255, 255);
-}
-
-.btn i:hover{
-    cursor: pointer;
-}

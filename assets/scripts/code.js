@@ -38,6 +38,22 @@ function createClones(button){
     }
 }
 
+function loadDoc() {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+    xhttp.open("GET", "tekstia.txt");
+    xhttp.send();
+}
+
+try {
+    loadDoc();
+}
+catch(err) {
+    document.getElementById("demo").innerHTML = err.message;
+}
+
 function toLight() {
     var element = document.body;
     element.classList.toggle("bodyLight");
@@ -45,13 +61,4 @@ function toLight() {
 
 function redirect() {
     alert('Redirecting');
-  }
-
-  function loadDoc() {
-    const xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
-      document.getElementById("demo").innerHTML = this.responseText;
-    }
-    xhttp.open("GET", "assets/walker.jpg");
-    xhttp.send();
   }
