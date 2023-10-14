@@ -1,19 +1,18 @@
 .bodyDark{
-    /*background-image: url('assets/space.jpg');*/
     background-color: #040404;
     color: #ffffff;
-}
+    }
 
 .bodyLight{
     background-color: #e6e4e0;
-}
+    }
 
 .h1{
     color: #610b97;
     background-color: rgb(4, 4, 4);
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
-}
+}   
 
 .headerDark {
     background-color: rgb(28, 9, 37);
@@ -22,9 +21,9 @@
     font-size: 35px;
     color: #610b97;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
-  }
+    }
 
-  .article {
+.article {
     margin: auto;
     padding: 20px;
     width: 60%;
@@ -34,6 +33,14 @@
     font-size: 22px;
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    }
+
+.bottomHeader {
+    overflow: hidden;
+    background-color: rgb(28, 9, 37);
+    bottom: 0;
+    padding-top: 60px;  
+    width: 100%;
     }
 
 .containerUp {  
@@ -48,28 +55,28 @@
 .containerLeft {  
     float: left;
     width: 150px;
-    height: 1000px;  
+    height: 855px;  
     background-color: #222222; 
     }
 
 .containerRight {
     float: right;
     width: 150px;
-    height: 1000px;
+    height: 855px;
     background-color: #222222; 
     }
 
 .containerGalleryL {  
     float: left;
     width: 150px;
-    height: 5010px;  
+    height: 6040px;  
     background-color: #222222; 
     }
     
 .containerGalleryR {  
     float: right;
     width: 150px;
-    height: 5010px;  
+    height: 6040px;  
     background-color: #222222; 
     }
 
@@ -180,6 +187,7 @@
         border: 13px solid #0b1b97;
         height: 520px;
     }
+
     .likeBtn{
         display: flex;
         justify-content: center;
