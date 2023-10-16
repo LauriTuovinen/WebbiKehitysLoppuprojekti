@@ -1,6 +1,5 @@
 .bodyDark{
     background-color: #040404;
-    color: #ffffff;
     }
 
 .bodyLight{
@@ -34,6 +33,19 @@
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
     }
+
+.articleLeft {
+    float: left;
+    margin-left: 10px;
+    padding: 20px;
+    width: 40%;
+    background-color: #222222;
+    height: auto;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+        }
 
 .bottomHeader {
     overflow: hidden;
@@ -106,33 +118,14 @@
         .buttonDark:active {
         background: #000000; }
 
-    .buttonLight {
-        margin:auto;
-        width: 255px;
-        color: rgb(255, 255, 255); 
-        font-size: 30px; 
-        line-height: 30px; 
-        padding: 13px; 
-        border-radius: 50px; 
-        font-family: "Trebuchet MS", Helvetica, sans-serif; 
-        font-weight: normal; 
-        text-decoration: none; 
-        font-style: normal; 
-        font-variant: normal; 
-        text-transform: none; 
-        background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
-        box-shadow: rgba(0, 0, 0, 0) -56px -4px 15px 5px; 
-        border: 2px solid rgb(28, 110, 164); 
-        display: inline-block;}
-        .myButton:hover {
-        background: #1C6EA4; }
-        .myButton:active {
-        background: #144E75; }
-
-    .lightButton {
+    .toTopButton {
         width: 130px;
         height: 25px;
-        color: rgb(0, 0, 0); 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        color: rgb(255, 255, 255); 
         font-size: 24px; 
         line-height: 25px; 
         padding: 10px; 
@@ -142,10 +135,10 @@
         text-decoration: none; 
         font-style: normal; 
         font-variant: normal; 
-        text-transform: none; 
-        background-image: radial-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%); 
-        box-shadow: rgba(0, 0, 0, 0) 20px -15px 15px 5px; 
-        border: 2px solid rgb(0, 0, 0); 
+        text-align: center;
+        background-image: radial-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, rgb(255, 255, 255) 100%); 
+        box-shadow: rgba(94, 94, 94, 0) 20px -15px 15px 5px; 
+        border: 2px solid #4d2867; 
         display: inline-block;}
         .lightButton:hover {
         background: #ffffff38; }
@@ -186,35 +179,4 @@
     .imageFrameRight:hover {
         border: 13px solid #0b1b97;
         height: 520px;
-    }
-
-    .likeBtn{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .likeBtn:active{
-        transform: scale(0.9, 0.9);
-    }
-    .likeBtn:active{
-        animation: pop 0.6s 1;
-    }
-    .likeBtn path {
-        fill: #ffffff;
-    }
-    .likeBtn:active path{
-        fill: #ec3e3e;
-    }
-
-    .clone{
-        position: absolute;
-        animation: moveOutwards 0.9s 1;
-        opacity: 0;
-    }
-
-    @keyframes moveOutwards{
-        from {
-            opacity: 1;
-            transform: translate(0, 0)
-        }
     }
