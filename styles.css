@@ -36,7 +36,7 @@
 
 .articleLeft {
     float: left;
-    margin-left: 10px;
+    margin-left: 50px;
     padding: 20px;
     width: 40%;
     background-color: #222222;
@@ -81,15 +81,63 @@
 .containerGalleryL {  
     float: left;
     width: 150px;
-    height: 6040px;  
+    height: 6100px;  
     background-color: #222222; 
     }
     
 .containerGalleryR {  
     float: right;
     width: 150px;
-    height: 6040px;  
+    height: 6100px;  
     background-color: #222222; 
+    }
+
+.table{
+    width: 35%;
+    float: right;
+    margin-right: 50px;
+    border: #610b97 3px solid;
+    border-color: #610b97;
+    background-color: #222222;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;}
+
+.th, td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid #610b97;
+    }
+
+.th, td:hover{
+    background-color: #393939;
+}
+
+.a{
+    color: #FFFFFF;
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+}
+
+.blink {
+    animation: blink 6s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+      color: rgb(255, 255, 255);
+    }
+  }
+
+.center {
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     }
 
 .buttonDark {
@@ -121,10 +169,7 @@
     .toTopButton {
         width: 130px;
         height: 25px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 50px;
         color: rgb(255, 255, 255); 
         font-size: 24px; 
         line-height: 25px; 
@@ -140,9 +185,9 @@
         box-shadow: rgba(94, 94, 94, 0) 20px -15px 15px 5px; 
         border: 2px solid #4d2867; 
         display: inline-block;}
-        .lightButton:hover {
+        .toTopButton:hover {
         background: #ffffff38; }
-        .lightButton:active {
+        .toTopButton:active {
         background: #FFFFFF; }
 
     .imageFrameLeft {
@@ -179,4 +224,11 @@
     .imageFrameRight:hover {
         border: 13px solid #0b1b97;
         height: 520px;
+    }
+
+    .imageFrame{
+        float: right;
+        margin-right: 100px;
+        height: 500px;
+        width: auto;
     }

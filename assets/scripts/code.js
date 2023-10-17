@@ -1,14 +1,12 @@
-function toLight() {
-    var element = document.body;
-    element.classList.toggle("bodyLight");
+//function that alerts when you are leaving the site
+function redirect() {
+    alert('Leaving site');
 }
 
-function redirect() {
-    alert('Redirecting');
-  }
-
+//function that scrolls the screen to the top of the webpage
 const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'});
 
+//AJAX function for fetching the text document that contains the information text
 function loadSamurai() {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
@@ -81,9 +79,14 @@ function loadWalker() {
     xhttp.send();
 }
 
+var blink = document.getElementById('blink'); 
+        setInterval(function () { 
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0); 
+        }, 2000);  
+
 //error handling for trying different functions
 try {
-    loadDCar();
+    //function you want to execute
 }
 catch(err) {
     document.getElementById("demo").innerHTML = err.message;
