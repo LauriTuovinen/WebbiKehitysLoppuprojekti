@@ -6,6 +6,44 @@ function redirect() {
 //function that scrolls the screen to the top of the webpage
 const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'});
 
+setInterval(downR());
+function downR() { 
+  let id = null;
+  const elem = document.getElementById("animateL");   
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame,5);
+  function frame() {
+    if (pos == 815) {
+    pos = 0;
+    } 
+    else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos; 
+    }
+  }
+}
+
+setInterval(downL());
+function downL() { 
+  let id = null;
+  const elem = document.getElementById("animateR");   
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame,5);
+  function frame() {
+    if (pos == 815) {
+    pos = 0;
+    } 
+    else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos; 
+    }
+  }
+}
+
 //AJAX function for fetching the text document that contains the information text
 function loadSamurai() {
     const xhttp = new XMLHttpRequest();

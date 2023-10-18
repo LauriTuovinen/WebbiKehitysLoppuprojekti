@@ -2,10 +2,6 @@
     background-color: #040404;
     }
 
-.bodyLight{
-    background-color: #e6e4e0;
-    }
-
 .h1{
     color: #610b97;
     background-color: rgb(4, 4, 4);
@@ -50,7 +46,6 @@
 .bottomHeader {
     overflow: hidden;
     background-color: rgb(28, 9, 37);
-    bottom: 0;
     padding-top: 60px;  
     width: 100%;
     }
@@ -232,3 +227,23 @@
         height: 500px;
         width: auto;
     }
+
+    #animateL {
+        width: 150px;
+        height: 50px;
+        float: right;
+        position: absolute;
+        text-align: center;
+        background-color: rgb(61, 61, 61);
+        color: white;
+      }
+
+    #animateR {
+        width: 150px;
+        height: 50px;
+        float: right;
+        position: absolute;
+        text-align: center;
+        background-color: rgb(61, 61, 61);
+        color: white;
+      }
