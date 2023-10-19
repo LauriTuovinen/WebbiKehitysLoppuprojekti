@@ -44,6 +44,44 @@ function downL() {
   }
 }
 
+setInterval(downLG());
+function downLG() { 
+  let id = null;
+  const elem = document.getElementById("animateLGallery");   
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame,5);
+  function frame() {
+    if (pos == 6060) {
+    pos = 0;
+    } 
+    else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos; 
+    }
+  }
+}
+
+setInterval(downRG());
+function downRG() { 
+  let id = null;
+  const elem = document.getElementById("animateRGallery");   
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame,5);
+  function frame() {
+    if (pos == 6060) {
+    pos = 0;
+    } 
+    else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos; 
+    }
+  }
+}
+
 //AJAX function for fetching the text document that contains the information text
 function loadSamurai() {
     const xhttp = new XMLHttpRequest();

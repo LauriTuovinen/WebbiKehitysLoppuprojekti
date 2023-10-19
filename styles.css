@@ -39,7 +39,7 @@
     height: auto;
     color: #ffffff;
     font-size: 22px;
-    text-align: center;
+    text-align: left;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
         }
 
@@ -108,13 +108,8 @@
     background-color: #393939;
 }
 
-.a{
-    color: #FFFFFF;
-    font-family: "Trebuchet MS", Helvetica, sans-serif; 
-}
-
 .blink {
-    animation: blink 6s infinite;
+    animation: blink 10s infinite;
   }
   
   @keyframes blink {
@@ -123,7 +118,6 @@
     }
     50% {
       opacity: 0;
-      color: rgb(255, 255, 255);
     }
   }
 
@@ -138,112 +132,128 @@
 .buttonDark {
     margin:auto;
     width: 255px;
-        color: rgb(255, 255, 255);
-        font-size: 30px; 
-        line-height: 22px; 
-        padding: 9px; 
-        border-radius: 5px; 
-        font-family: "Trebuchet MS", Helvetica, sans-serif; 
-        font-weight: normal; 
-        text-decoration: none; 
-        font-style: normal; 
-        font-variant: normal; 
-        text-transform: none; 
-        text-align: center;
-        background-image: radial-gradient(at center center, rgb(35, 34, 34) 0%, rgb(0, 0, 0) 100%, rgb(255, 255, 255) 100%); 
-        box-shadow: rgb(0, 0, 0) 1px 1px 3px 13px; 
-        border: 2px solid #4d2867; 
-        display: inline-block;}
-        .buttonDark:hover {
-        background: #00000036;
-        box-shadow:  #00000036 1px 1px 3px 13px; 
-        border: 2px solid #4d2867; }
-        .buttonDark:active {
-        background: #000000; }
+    color: rgb(255, 255, 255);
+    font-size: 30px; 
+    line-height: 22px; 
+    padding: 9px; 
+    border-radius: 5px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    text-align: center;
+    background-image: radial-gradient(at center center, rgb(35, 34, 34) 0%, rgb(0, 0, 0) 100%, rgb(255, 255, 255) 100%); 
+    box-shadow: rgb(0, 0, 0) 1px 1px 3px 13px; 
+    border: 2px solid #4d2867; 
+    display: inline-block;}
+.buttonDark:hover {
+    background: #00000036;
+    box-shadow:  #00000036 1px 1px 3px 13px; 
+    border: 2px solid #4d2867; }
+.buttonDark:active {
+    background: #000000; }
 
-    .toTopButton {
-        width: 130px;
-        height: 25px;
-        margin-top: 50px;
-        color: rgb(255, 255, 255); 
-        font-size: 24px; 
-        line-height: 25px; 
-        padding: 10px; 
-        border-radius: 50px; 
-        font-family: "Trebuchet MS", Helvetica, sans-serif; 
-        font-weight: normal; 
-        text-decoration: none; 
-        font-style: normal; 
-        font-variant: normal; 
-        text-align: center;
-        background-image: radial-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, rgb(255, 255, 255) 100%); 
-        box-shadow: rgba(94, 94, 94, 0) 20px -15px 15px 5px; 
-        border: 2px solid #4d2867; 
-        display: inline-block;}
-        .toTopButton:hover {
-        background: #ffffff38; }
-        .toTopButton:active {
-        background: #FFFFFF; }
+.toTopButton {
+    width: 130px;
+    height: 25px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255); 
+    font-size: 24px; 
+    line-height: 25px; 
+    padding: 10px; 
+    border-radius: 50px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-align: center;
+    background-image: radial-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, rgb(255, 255, 255) 100%); 
+    box-shadow: rgba(94, 94, 94, 0) 20px -15px 15px 5px; 
+    border: 2px solid #4d2867; 
+    display: inline-block;}
+.toTopButton:hover {
+    background: #ffffff38; }
+.toTopButton:active {
+    background: #FFFFFF; }
 
-    .imageFrameLeft {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 10px; 
-        height: 500px;
-        width: auto;
-        border: 1px rgba(32, 32, 32, 0.937); 
-        size: 50px;
-        box-shadow: #610b97 0px 0px 15px 5px; 
-    }
-    .imageFrameLeft:hover {
-        border: 13px solid #4d2867;
-        height: 520px;
-    }
+.imageFrameLeft {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px; 
+    height: 500px;
+    width: auto;
+    border: 1px rgba(32, 32, 32, 0.937); 
+    size: 50px;
+    box-shadow: #610b97 0px 0px 15px 5px; 
+}
+.imageFrameLeft:hover {
+    border: 13px solid #4d2867;
+    height: 520px;
+}
 
-    .imageFrameRight {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 10px; 
-        height: 500px;
-        width: auto;
-        border: 1px rgba(32, 32, 32, 0.937); 
-        size: 50px;
-        box-shadow: #0b1b97 0px 0px 15px 5px; 
-    }
-    .imageFrameRight:hover {
-        border: 13px solid #0b1b97;
-        height: 520px;
-    }
+.imageFrameRight {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px; 
+    height: 500px;
+    width: auto;
+    border: 1px rgba(32, 32, 32, 0.937); 
+    size: 50px;
+    box-shadow: #0b1b97 0px 0px 15px 5px; 
+}
+.imageFrameRight:hover {
+    border: 13px solid #0b1b97;
+    height: 520px;
+}
 
-    .imageFrame{
-        float: right;
-        margin-right: 100px;
-        height: 500px;
-        width: auto;
-    }
+.imageFrame{
+    float: right;
+    margin-right: 100px;
+    height: 500px;
+    width: auto;
+}
 
-    #animateL {
-        width: 150px;
-        height: 50px;
-        float: right;
-        position: absolute;
-        text-align: center;
-        background-color: rgb(61, 61, 61);
-        color: white;
-      }
+#animateL {
+    width: 150px;
+    height: 50px;
+    float: right;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+}
 
-    #animateR {
-        width: 150px;
-        height: 50px;
-        float: right;
-        position: absolute;
-        text-align: center;
-        background-color: rgb(61, 61, 61);
-        color: white;
-      }
+#animateR {
+    width: 150px;
+    height: 50px;
+    float: right;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+}
+
+#animateLGallery {
+    width: 150px;
+    height: 50px;
+    float: right;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+}
+
+#animateRGallery {
+    width: 150px;
+    height: 50px;
+    float: right;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+}
