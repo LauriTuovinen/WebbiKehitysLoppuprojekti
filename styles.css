@@ -18,7 +18,8 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
     }
 
-.article {
+.flex-article {
+    display: flex;
     margin: auto;
     padding: 20px;
     width: 60%;
