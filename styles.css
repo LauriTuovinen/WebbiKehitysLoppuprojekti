@@ -18,8 +18,7 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
     }
 
-.flex-article {
-    display: flex;
+article {
     margin: auto;
     padding: 20px;
     width: 60%;
@@ -233,7 +232,8 @@
     height: 520px;
 }
 
-.imageFrame{
+.flex-imageFrame{
+    display: flex;
     float: right;
     margin-right: 100px;
     height: 500px;

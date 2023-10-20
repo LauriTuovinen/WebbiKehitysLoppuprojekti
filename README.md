@@ -11,7 +11,7 @@ CSS
 1 osio täyttyy koska sivulla on käytetty fontteja ja värejä muuttamaan tyyliä
 2 osio täyttyy koska sivun elementeillä on omat luokat ja id:t jotta tiettyjä elementtejä voi muokata
 3 osio täyttyy kosksa sivulla on reagoivia tyyli elementtejä
-4 osio täyttyy kosksa sivulla on flex-tyyppisiä elementtejä
+4 osio täyttyy kosksa sivulla on flex-tyyppinen elementti
 5 osio täyttyy omasta mielestä ainakin
 
 Javascript
@@ -26,4 +26,4 @@ Asyncronous operations
 2 osio täyttyy koska kuvagalleriassa käytetään ajax kutsua hakemaan tekstitiedosto näyttämään info tekstiä
 3 osio täyttyy koska ajax kutsun hakema tieto näkyy sivulla
 4 osio täyttyy koska javascript osiossa käytettiin error handlingiä testaamaan eri funktioita kun ne tehtiin
-5 ei varmaan täyty
+5 ei varmaan täyty.
