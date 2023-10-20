@@ -28,6 +28,8 @@
     font-size: 22px;
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    -webkit-box-shadow: 0px 0px 4px 4px #282828; 
+    box-shadow: 0px 0px 4px 4px #323232;
     }
 
 .articleLeft {
@@ -41,6 +43,8 @@
     font-size: 22px;
     text-align: left;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    -webkit-box-shadow: 5px 0px 4px 0px #1E1E1E; 
+    box-shadow: 5px 0px 4px 0px #1E1E1E;
     }
 
 .bottomHeader {
@@ -63,7 +67,9 @@
     float: left;
     width: 150px;
     height: 855px;  
-    background-color: #222222; 
+    background-color: #222222;
+    -webkit-box-shadow: 3px 4px 4px 1px #1e1e1e; 
+    box-shadow: 4px 0px 4px 1px #1E1E1E;
     }
 
 .containerRight {
@@ -71,6 +77,8 @@
     width: 150px;
     height: 855px;
     background-color: #222222; 
+    -webkit-box-shadow: -3px 4px 4px 1px #1E1E1E; 
+    box-shadow: -4px 0px 4px 1px #1E1E1E;
     }
 
 .containerGalleryL {  
@@ -78,6 +86,8 @@
     width: 150px;
     height: 6100px;  
     background-color: #222222; 
+    -webkit-box-shadow: 3px 4px 4px 1px #1e1e1e; 
+    box-shadow: 4px 0px 4px 1px #1E1E1E;
     }
     
 .containerGalleryR {  
@@ -85,6 +95,8 @@
     width: 150px;
     height: 6100px;  
     background-color: #222222; 
+    -webkit-box-shadow: -3px 4px 4px 1px #1E1E1E; 
+    box-shadow: -4px 0px 4px 1px #1E1E1E;
     }
 
 .table {
